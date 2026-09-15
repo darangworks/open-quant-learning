@@ -1,0 +1,14 @@
+# Enforce LF line endings for all text files
+* text=auto eol=lf
+
+# Markdown files must use LF (Jekyll requirement)
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.pdf binary
